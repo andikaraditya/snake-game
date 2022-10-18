@@ -20,10 +20,6 @@ screen.onkey(snake.down, key="Down")
 screen.onkey(snake.left, key="Left")
 screen.onkey(snake.right, key="Right")
 
-a = 1
-b = 2
-c = a+b
-
 while True:
     screen.update()
     time.sleep(0.1)
